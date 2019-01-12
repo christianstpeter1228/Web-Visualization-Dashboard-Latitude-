@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Responsive Columns</title>
+  <link rel="stylesheet" href= "https://stackpath.bootstrapcdn.com/bootswatch/4.2.1/lux/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+</head>
+</head>
+
+<body>
+  <div class="container">
+    <nav class="navbar">
+    <ul class="nav navbar-nav navbar-right">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots
+                <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+                <li>
+                    <a href="temperature.html">Max Temperature</a>
+                </li>
+                <li>
+                    <a href="humidity.html">Humidity</a>
+                </li>
+                <li>
+                    <a href="cloudiness.html">Cloudiness</a>
+                </li>
+                <li>
+                    <a href="wind.html">Windiness</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="comparison.html">Comparison</a>
+        </li>
+        <li>
+            <a href="data.html">Data</a>
+        </li>
+
+    </ul>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="main-box">
+                        <h1 class="main-pg-header">Comparison: Latitude vs. X</h1>
+                        <hr>
+                        <div class="summary txt">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <h2 class="text-center">vs. Max Temperature</h2>
+                                    <a href="temperature.html">
+                                        <img id="side-img1" src="https://github.com/christianstpeter1228/WeatherPy/blob/master/Latitude_Temperature.png?raw=true", alt="Temperature vs. Latitude">
+                                    </a>
+                                    <br>
+                                </div>
+                                <div class="col-lg-6">
+                                    <h2 class="text-center">vs. Humidity</h2>
+                                    <a href="humidity.html">
+                                        <img id="side-img2" src="https://github.com/christianstpeter1228/WeatherPy/blob/master/Latitude_Humidity.png?raw=true", alt="Humidity vs. Latitude">
+                                    </a>
+                                    <br>
+                                    </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <h2 class="text-center">vs. Cloudiness</h2>
+                                    <a href="cloudiness.html">
+                                        <img id="side-img3" src="https://github.com/christianstpeter1228/WeatherPy/blob/master/Latitude_Cloudiness.png?raw=true", alt="Cloudiness vs. Latitude">
+                                    </a>
+                                    <br>
+                                </div>
+                                <div class="col-lg-6">
+                                    <h2 class="text-center">vs. Wind Speed</h2>
+                                    <a href="wind.html">
+                                        <img id="side-img4" src="https://github.com/christianstpeter1228/WeatherPy/blob/master/Latitude_Wind.png?raw=true", alt="Windiness vs. Latitude">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        </div>
+    </body>
+    <html>
